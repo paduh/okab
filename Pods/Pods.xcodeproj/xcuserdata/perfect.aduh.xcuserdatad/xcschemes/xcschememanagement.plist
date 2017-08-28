@@ -7,7 +7,7 @@
 		<key>Alamofire.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>0</integer>
 		</dict>
 		<key>Pods-Okab.xcscheme</key>
 		<dict>
@@ -28,6 +28,34 @@
 		<dict>
 			<key>orderHint</key>
 			<integer>5</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>6CC51C40866DAB2D68397218C50E8A01</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>88E9EC28B8B46C3631E6B242B50F4442</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BB62985AB449AC82A65A2E8EF33BCF4A</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E2BBC7C3FE2EEC6541BD76AFD68DCD9C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EFC93D59251D19AADD9755895D8542AB</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
