@@ -21,6 +21,8 @@
 		82A79A291F522EB6008CDF32 /* SWRevealViewController.h in Sources */ = {isa = PBXBuildFile; fileRef = 82049E561F522CB500A02699 /* SWRevealViewController.h */; };
 		82A79A2B1F53493C008CDF32 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82A79A2A1F53493C008CDF32 /* GradientView.swift */; };
 		82F9CB921F53FA9300E6B222 /* CreateAccountVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F9CB911F53FA9300E6B222 /* CreateAccountVC.swift */; };
+		82F9CB951F544BB600E6B222 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F9CB941F544BB600E6B222 /* AuthService.swift */; };
+		82F9CB971F5534FC00E6B222 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82F9CB961F5534FC00E6B222 /* RoundedButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		822152AB1F53754A001C20D1 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		82A79A2A1F53493C008CDF32 /* GradientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
 		82F9CB911F53FA9300E6B222 /* CreateAccountVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateAccountVC.swift; sourceTree = "<group>"; };
+		82F9CB941F544BB600E6B222 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
+		82F9CB961F5534FC00E6B222 /* RoundedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedButton.swift; sourceTree = "<group>"; };
 		CF14C91D6AD5C171495B7CAE /* Pods_Okab.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Okab.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -86,6 +90,7 @@
 		82049D781F52158000A02699 /* Okab */ = {
 			isa = PBXGroup;
 			children = (
+				82F9CB931F544BA000E6B222 /* Services */,
 				822152AA1F537537001C20D1 /* Utilities */,
 				82049E511F52252200A02699 /* Model */,
 				82049E501F52251B00A02699 /* View */,
@@ -126,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				82A79A2A1F53493C008CDF32 /* GradientView.swift */,
+				82F9CB961F5534FC00E6B222 /* RoundedButton.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -144,6 +150,14 @@
 				822152AB1F53754A001C20D1 /* Constants.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		82F9CB931F544BA000E6B222 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				82F9CB941F544BB600E6B222 /* AuthService.swift */,
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		C36218BC68579EA04520A547 /* Pods */ = {
@@ -284,7 +298,9 @@
 				822152A91F53726A001C20D1 /* LoginVC.swift in Sources */,
 				82049E551F5225AF00A02699 /* ChannelVC.swift in Sources */,
 				82049E531F52259A00A02699 /* ChatVC.swift in Sources */,
+				82F9CB951F544BB600E6B222 /* AuthService.swift in Sources */,
 				82A79A2B1F53493C008CDF32 /* GradientView.swift in Sources */,
+				82F9CB971F5534FC00E6B222 /* RoundedButton.swift in Sources */,
 				82049D7C1F52158000A02699 /* ViewController.swift in Sources */,
 				82049D7A1F52158000A02699 /* AppDelegate.swift in Sources */,
 				82F9CB921F53FA9300E6B222 /* CreateAccountVC.swift in Sources */,
